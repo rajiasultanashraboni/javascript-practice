@@ -109,7 +109,51 @@ var voter = 0.99;
 var sum = Math.floor(voter);
 console.log(sum)
 
-// Math.random mane ek ek shomoy ek ek answer ashbe 0 and 1 er vitore
+// Math.random mane ek ek shomoy ek ek answer ashbe 0 and 1 er vitore 
 
 var lotary = Math.random();
 console.log(lotary)
+
+// chaile custom vabeo kora jai jodi 100 er vitore dekhte chai tahole
+
+var lotary = Math.random() *100;
+console.log(lotary)
+
+
+// if condition // else condition
+
+
+var a = 20;
+var b = 20;
+
+if( a < b) {
+    console.log("b boro");
+}
+
+else if( a > b){
+    console.log("a boro")
+}
+
+else{
+    console.log("They both are same");
+}
+
+// switch condition
+var sum = 10;
+
+switch(sum){
+    case 10:
+        console.log("i ma very happy");
+        break
+    case 20:
+        console.log("i ma very unhappy")
+        break
+    case 30:
+        console.log("case mittha");
+        break
+    default:
+        console.log("ami tumake khuje pelam na")
+        break
+}
+
+
