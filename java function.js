@@ -1,24 +1,24 @@
-// function Fun(){
-//     var num = 20;
-//     var num2 = 20;
-//     console.log(num * num2);
+function Fun(){
+    var num = 20;
+    var num2 = 20;
+    console.log(num * num2);
 
 
-// }
+}
 
-// Fun()
+Fun()
 
 
 
-// function Fun (num1, num2){
-//     var total = num1 + num2;
-//     console.log(total)
-// }
+function Fun (num1, num2){
+    var total = num1 + num2;
+    console.log(total)
+}
 
-// Fun(20, 30);
-// Fun(20, 40);
-// Fun(20, 50);
-// Fun(20, 80);
+Fun(20, 30);
+Fun(20, 40);
+Fun(20, 50);
+Fun(20, 80);
 
 
 function fun (num1){
